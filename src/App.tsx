@@ -5,8 +5,8 @@ import Route2 from "./Route2"
 export default function () {
   return (
     <Routes>
-      <Route path={""} element={<Route1 />} />
-      <Route path={"r2"} element={<Route2 />} />
+      <Route path={"test2"} element={<Route1 />} />
+      <Route path={"test2/r2"} element={<Route2 />} />
     </Routes>
   )
 }
